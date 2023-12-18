@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>UTNIJ.SE - Po prostu se utnij</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/notie/dist/notie.min.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <div id="logo">UTNIJ.SE</div>
+        <div id="slogan">Po prostu se utnij</div>
+        <input type="text" id="url-input" placeholder="Wpisz / Wklej link">
+        <div id="shortened-link" style="display: none;">
+            <div id="text-output">Twój skrócony link:</div>
+            <div id="short-url"></div>
+        </div>
+        <div id="short-url-container" style="display: none;">
+            <div id="text-output">Twój skrócony link:</div>
+            <div id="short-url"></div>
+            <button id="copy-button">Kopiuj</button>
+        </div>
+        <button id="submit-button">UTNIJ</button>
+        <div id="footer">Powered by <a href="https://github.com/artur-kus" target="_blank">
+                <img id="github-icon" src="https://github.com/fluidicon.png" alt="GitHub Icon"></a></div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/notie"></script>
+</body>
+
+</html>

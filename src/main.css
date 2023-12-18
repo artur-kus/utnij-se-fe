@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: scale(1.5);
+}
+
+#logo {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#slogan {
+    margin-top: 2px;
+    font-size: 18px;
+    color: #666;
+}
+
+#url-input {
+    width: 80%;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#text-output {
+    text-align: center;
+    padding: 15px;
+}
+
+#short-url-container {
+    display: none;
+    margin-top: 20px;
+    position: relative;
+}
+
+#short-url {
+    width: 80%;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#copy-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#submit-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #888;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer a {
+    margin-left: 5px;
+}
+
+#github-icon {
+    width: 24px;
+    height: 24px;
+}
